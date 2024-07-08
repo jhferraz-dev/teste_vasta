@@ -68,3 +68,93 @@ header{
     color: var(--cor-fraca);
     background-color: var(--botao-claro);
 }
+
+.sobre header{
+    font-size: 44px;
+    font-weight: 400;
+    height: 100px;
+}
+
+.sobre .sobre-texto1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre .txt-btn{
+    max-width: 675px;
+    margin: 45px ;
+}
+
+.sobre .txt-btn p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    margin-right: 0.5px;
+}
+
+.sobre .txt-btn button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--cor-fraca);
+    background-color: var(--botao-escuro);
+}
+
+.sobre .sobre-texto2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre .sobre-texto2 p{
+    width: 880px;
+    margin: 45px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.portfolio header{
+    font-size: 44px;
+    font-weight: 400;
+    height: 100px;
+}
+
+.portfolio .images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .images ul{
+    width: 1200px;
+}
+
+.portfolio .images li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.portfolio button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--cor-fraca);
+    background-color: var(--botao-escuro);
+    margin: auto;
+    display: block;
+}
+
+.images li a:hover{
+    background-color: var(--cor-intermediaria);
+} 
