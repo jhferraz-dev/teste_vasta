@@ -105,6 +105,10 @@ header{
     background-color: var(--botao-escuro);
 }
 
+.sobre .txt-btn button:hover{
+    background-color: var(--cor-intermediaria);
+} 
+
 .sobre .sobre-texto2{
     width: 100%;
     display: flex;
@@ -155,6 +159,142 @@ header{
     display: block;
 }
 
-.images li a:hover{
+button:hover{
     background-color: var(--cor-intermediaria);
 } 
+
+.depoimentos header{
+    font-size: 44px;
+    font-weight: 400;
+    height: 100px;
+    margin-top: 50px; 
+    margin-bottom: 20px;  
+}
+
+.depoimentos .container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.depoimentos .bloco-depoimento{
+    width: 372px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco-depoimento .depoimento-image{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloco-depoimento .depoimento-txt{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.bloco-depoimento .depoimento-txt h1{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bloco-depoimento .depoimento-txt p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.contato header{
+    font-size: 44px;
+    font-weight: 400;
+    height: 100px;
+    margin-top: 50px;   
+    margin-bottom: 20px;
+}
+
+.contato form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+form .form-txt{
+    width: 363px;
+    height: 53px;
+    margin: 25px;
+    outline: unset;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+form input::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cor-forte);
+}
+
+form textarea::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cor-forte);
+    font-family: Poppins;
+}
+
+form .form-down{
+    display: flex;
+}
+
+form .form-btn{
+    display: flex;
+    width: 495px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+
+form textarea{
+    width: 632px;
+    height: 170px;
+    outline: unset;
+    border: 1px solid black;
+    margin: 20px;
+    margin-right: 42px;
+    padding: 15px;
+}
+
+form .form-txt-telefone{
+    width: 495px;
+    height: 53px;
+    margin: 20px;
+    margin-left: 30px;
+    outline: unset;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+form p{
+    width: 280px;
+    padding: 10px;
+}
+
+.form-button{
+    height: 53px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--cor-fraca);
+    background-color: var(--botao-claro);
+}
