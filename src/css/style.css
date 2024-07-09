@@ -298,3 +298,127 @@ form p{
     color: var(--cor-fraca);
     background-color: var(--botao-claro);
 }
+
+form .form-button:hover{
+    background-color: var(--cor-intermediaria);
+}
+
+footer{
+    background-color: #303030;
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container{
+    width: 1230px;
+    height: 360px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .bloco1{
+    width: 610px;
+    height: 320px;
+}
+
+.bloco1 h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor-fraca);
+}
+
+.bloco1 .email{
+    width: 373px;
+    height: 60px;
+    outline: unset;
+    border: 1px solid white;
+    padding: 15px;   
+    background-color: #303030;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: Poppins;
+}
+
+.bloco1 .email::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cor-fraca);
+}
+
+.bloco1 button{
+    height: 60px;
+    padding: 10px 30px;
+    border: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor-fraca);
+    background-color: var(--botao-claro); 
+    position: relative;
+    right: 4px;
+    top: 4px;
+}
+
+.bloco1 button:hover{
+    background-color: var(--cor-intermediaria);
+}
+
+.bloco1 .images{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bloco1 li img{
+    width: 135px;
+    height: 90px;
+}
+
+.bloco1 .link{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-fraca);
+}
+
+footer .container .bloco2{
+    width: 470px;
+    height: 270px;
+    position: relative;
+    bottom: 24px;
+}
+
+.bloco2 .bloco2-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco2  h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-fraca);
+    margin-bottom: 20px;
+}
+
+.bloco2 .bloco2-itens li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-fraca);
+    margin-bottom: 10px;
+}
+
+.bloco2 img{
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 20px;
+}
